@@ -14,8 +14,8 @@ int led = 13;
 
 TinyGPSPlus gps;
 
-const char* telegramToken = "6297422757:AAHFQGwv5hyYOzlIn5it0N9AfjqZ46nZSBk";
-const char* apn = "byu";   // APN dari penyedia layanan seluler
+const char* telegramToken = "secret";
+const char* apn = "secret";   // APN dari penyedia layanan seluler
 
 SIM800L gsm;
 UniversalTelegramBot bot(telegramToken, gsm);
