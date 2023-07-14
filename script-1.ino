@@ -49,7 +49,7 @@ void loop()
         smartDelay(1000);
         Serial.println("Permintaan data lokasi\r\n");
         textMessage = "";
-        GPRS.println("AT+CMGS=\"081549107378\"");
+        GPRS.println("AT+CMGS=\"08xxx\"");
         delay(500);
         String pesan = "https://maps.google.com/?q=" + lati + "," + longi;
         GPRS.print(pesan);
